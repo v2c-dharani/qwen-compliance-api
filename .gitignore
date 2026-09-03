@@ -1,0 +1,30 @@
+# Environment Variables
+.env
+.env.local
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE & OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Checkpoints & Training artifacts (exclude from git)
+checkpoint-*/
+*.pt
+*.pth
+training_args.bin
+
